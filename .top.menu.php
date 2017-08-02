@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Главная",
+        "/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Вакансии",
+        "/vacancy/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Регистрация",
+        "/singup/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Авторизация",
+        "/signin/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Администрирование",
+        "/administation/",
+        Array(),
+        Array(),
+        "CSite::InGroup(array(1,5))"
+    )
+);
+?>
