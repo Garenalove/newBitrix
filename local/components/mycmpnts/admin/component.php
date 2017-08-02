@@ -10,13 +10,13 @@
 /** @global CMain $APPLICATION */
 $arDefaultUrlTemplates404 = array(
     "vacancys" => 'index.php',
-    "responses" => 'responses/',
+    "responses" => 'responses',
 );
 $arParams["SEF_MODE"] = "Y";
 $arDefaultVariableAliases404 = array();
 $arDefaultVariableAliases = array();
 $componentPage = "";
-$arComponentVariables = array("element_id");
+$arComponentVariables = array("responses");
 $arCustomPagesPath = array();
 $arVariables = array();
 $arUrlTemplates = CComponentEngine::MakeComponentUrlTemplates($arDefaultUrlTemplates404, $arParams["SEF_URL_TEMPLATES"]);

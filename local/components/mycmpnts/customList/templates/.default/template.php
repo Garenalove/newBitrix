@@ -3,7 +3,7 @@
 
     <!--Items-->
     <? foreach ($arResult["ITEMS"] as $item):?>
-		
+
         <div class="row">
             <h3><a href="<?=$item["DETAIL_PAGE_URL"]?>"><?=$item["NAME"]?></a></h3>
             <p>Зарплата: от <?=$item["PROPERTIES"]["payment"]["VALUE"]?> - до <?=$item["PROPERTIES"]["payment_up_to"]["VALUE"]?></p>
